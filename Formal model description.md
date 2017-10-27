@@ -14,7 +14,8 @@ The model is to be conceived as eco-evolutionary, spatially-explicit, niche-base
 Niche(Pz)= {Gaussian(mean=Condition_optimum, sd=condition_tolerance), Gaussian(mean=Resource_optimum, sd=Resource_tolerance)}
 
 $k_{n+1} = n^2 + k_n^2 - k_{n-1}$
-
+ <img alt="tex: f(x) = \frac1{\sigma\sqrt{2\pi}}
+    \int_{-\infty}^x e^{-\frac{(t-\mu)^2}{2\sigma^2}}dt"> 
 
 ## Experimental Design
 This is still not discussed (probably on the second meeting). The experiments will largely depend on the hypotheses to test and, thus, on the perspective paper's diagrams. However, we more or less converged to start simulation by considering only one environmental condition (temperature) and one resource (given by e.g. productivity or NDVI). Species traits will be functional. Nevertheless, we might consider simulating more conditions, resources and neutral traits (these might be useful for non-adaptive divergence).
