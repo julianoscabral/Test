@@ -12,6 +12,7 @@ The model is to be conceived as eco-evolutionary, spatially-explicit, niche-base
 * Spatially-explicit: Generalized grid of cells, potentially in the rough shape of North/South America. Grid cells can be interpreted as buckets with different properties depending on the location in the grid, most notably depending on its latitude. Hence, the cell/bucket is an entity of the model, with following characteristics: location z within a grid depicting a latitudinal gradient; size, to be considered as a carrying capacity Kz in terms of individuals and might depend on area/resource/productivity; and environmental variables (i.e. conditions; e.g. temperature). These characteristics may remain static, become dynamic or spatially-temporally variable depending on the simulation scenarios (to be defined in the Experimental Design section).
 * Niche-based: Local populations Pz will have Gaussian distributions defining optimum, tolerance and for environmental conditions c (~ Grinellian Niche or Hutchinson's/Soberón's scenopoetic variable) and resources r (~ Eltonian Niche or Hutchinson's/Soberón's bionomic variable). We might discuss how we call these species' atributes (see also Rampal's trilogy papers on the niche in Journal of Biogegraphy), but this discussion is not central here. 
 Niche(Pz)= {Gaussian(mean=Condition_optimum, sd=condition_tolerance), Gaussian(mean=Resource_optimum, sd=Resource_tolerance)}
+k_{n+1} = n^2 + k_n^2 - k_{n-1}
 
 
 ## Experimental Design
