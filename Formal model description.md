@@ -1,13 +1,18 @@
 # Formal description of an eco-evolutionary model to test LDG hypotheses
 
-This is preliminary model description, roughly following the ODD protocol (Overview, Design concepts, and Details) for describing agent-based models (Grimm et al. 2006, 2010). Everybody is welcome to contribute, optimize description, write equations, sketch figures and write pseudocode. 
+This is preliminary model description, roughly following the ODD protocol (Overview, Design concepts, and Details) for describing agent-based models (Grimm et al. 2006, 2010). Everybody is welcome to contribute, optimize description, write equations, sketch figures and write pseudocode (and correct anything wrong I wrote). This model description is intended to help Rampal's programmer to implement the model and run preliminary simulations until the next meeting in summer 2018. 
 
 ## Purpose
 This model has a general purpose to unveil the misteries of biodiversity dynamics and their governing rules. However, until we get there the more immediate purpose is to test hypotheses addressing the Latitudinal Gradient of Diversity (from now on LDG). Because we aim to address as many hypotheses as possible, the model needs to accordingly accomodate the processes, structure and properties necessary to integrate assumptions and to generate predicted patterns (beyond the LDG) evoked the various hypotheses. Most importantly, we discussed model properties with the general aim of defining a model that generates speciation as an emergent process (i.e. as a product of trait/niche divergence, which per se should be influenced by ecological, evolutionary and environmental processes).    
 
-## Model Properties, State variables and scales:
-* Spatially-explicit: Generalized grid of cells, potentially in the rough shape of North/South America. Grid cells can be interpreted as buckets with different properties depending on the location in the grid.  
-* Niche-based: 
+## Properties, state variables and scales:
+The model is to be conceived as eco-evolutionary, spatially-explicit, niche-based, stochastic and whose agent is defined as local population, which per se belong to species: 
+* Eco-evolutionary: Key processes to be included are interspecific (resource) competition, metapopulation dynamics (survival, extinction, emigration, immigration), gene flow, mutation, speciation. These processes are described in detail in the respective submodel section below. These processes should take place in most scenarios, but some scenarios (given by the experimental design for testing the hypotheses) may require switching off or varying some of these processes.
+* Spatially-explicit: Generalized grid of cells, potentially in the rough shape of North/South America. Grid cells can be interpreted as buckets with different properties depending on the location in the grid, most notably depending on its latitude. Hence, the cell/bucket is an entity of the model, with following characteristics: location z within a grid depicting a latitudinal gradient; size, to be considered as a carrying capacity K(z) in terms of individuals and might depend on area/resource/productivity; and environmental variables (i.e. conditions; e.g. temperature). These characteristics may remain static, become dynamic or spatially-temporally variable depending on the simulation scenarios. We opted to start with one environmental variable (temperature), which will vary with location z, and one .
+* Niche-based: Local populations will have a optimum and tolerance
+
+## Experimental Design
+This is still not discussed (probably on the second meeting). However, 
 
 ## References
 
