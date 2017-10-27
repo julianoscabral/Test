@@ -8,3 +8,8 @@ This model has a general purpose to unveil the misteries of biodiversity dynamic
 ## Model Properties, State variables and scales:
 * Spatially-explicit: Generalized grid of cells, potentially in the rough shape of North/South America. Grid cells can be interpreted as buckets with different properties depending on the location in the grid.  
 * Niche-based: 
+
+## References
+
+[Grimm, V., Berger, U., Bastiansen, F., Eliassen, S., Ginot, V., Giske, J., ... & Huth, A. (2006). A standard protocol for describing individual-based and agent-based models. Ecological modelling, 198(1), 115-126.](http://www.sciencedirect.com/science/article/pii/S0304380006002043)
+[Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.](http://www.sciencedirect.com/science/article/pii/S030438001000414X)
