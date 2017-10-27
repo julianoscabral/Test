@@ -2,4 +2,6 @@
 
 This is preliminary pseudocode with some equations towards a formal model description. 
 
-The model
+## Model Properties:
+* Spatially-explicit: Generalized grid of equal area of cells, potentially in the rough shape of North/South America
+* 
