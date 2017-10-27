@@ -1,4 +1,4 @@
-npm install markdown-it --save
+
 # Formal description of an eco-evolutionary model to test LDG hypotheses
 
 This is preliminary model description, roughly following the ODD protocol (Overview, Design concepts, and Details) for describing agent-based models (Grimm et al. 2006, 2010). Everybody is welcome to contribute, optimize description, write equations, sketch figures and write pseudocode (and correct anything wrong I wrote). This model description is intended to help Rampal's programmer to implement the model and run preliminary simulations until the next meeting in summer 2018. 
