@@ -13,8 +13,8 @@ The model is to be conceived as eco-evolutionary, spatially-explicit, niche-base
 * Niche-based: Local populations Pz will have Gaussian distributions defining optimum, tolerance and for environmental conditions c (~ Grinellian Niche or Hutchinson's/Soberón's scenopoetic variable) and resources r (~ Eltonian Niche or Hutchinson's/Soberón's bionomic variable). We might discuss how we call these species' atributes (see also Rampal's trilogy papers on the niche in Journal of Biogegraphy), but this discussion is not central here. 
 Niche(Pz)= {Gaussian(mean=Condition_optimum, sd=condition_tolerance), Gaussian(mean=Resource_optimum, sd=Resource_tolerance)}
 
-$k_{n+1} = n^2 + k_n^2 - k_{n-1}$
-*E = mc<sup>2</sup>*
+*k_{n+1} = n^2 + k_n^2 - k_{n-1}*
+*E = mc<sub>2</sub>*
 
 ## Experimental Design
 This is still not discussed (probably on the second meeting). The experiments will largely depend on the hypotheses to test and, thus, on the perspective paper's diagrams. However, we more or less converged to start simulation by considering only one environmental condition (temperature) and one resource (given by e.g. productivity or NDVI). Species traits will be functional. Nevertheless, we might consider simulating more conditions, resources and neutral traits (these might be useful for non-adaptive divergence).
